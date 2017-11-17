@@ -1,4 +1,4 @@
-const timeout=100  //Change the time duration where you cannot use dismount skills after mounting.
+const timeout=300  //Change the time duration where you cannot use dismount skills after mounting.
 
 module.exports = function stopdismount(dispatch){
 	let time
