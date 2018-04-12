@@ -1,6 +1,10 @@
 {
   "files": {
-    "index.js": "4b48444cbe4785544b57bf38155f1db971b11c8e945165aecfe25c98f1608aa1",
-    "module.json": "7181af0566689b4ef7f13aeac2f31a95cadde3ef0f607e7a96841b0bfb583f52"
+      "config.json": {
+          "overwrite": false,
+          "hash": "14c37fac9efc29296c7af4c7f8593ea45483ed3b7bc5f1c4653c70acf41b763e"
+      },
+      "index.js": "3f200827ffe42279d1c82697a782bf54b2684d6cd0d98f2fc88a29db1116aab9",
+      "module.json": "7181af0566689b4ef7f13aeac2f31a95cadde3ef0f607e7a96841b0bfb583f52"
   }
 }
