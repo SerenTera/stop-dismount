@@ -1,3 +1,7 @@
 {
+	"disableAutoUpdate": false,
+	"options": {
+		"niceName":"Stop Dismount"
+	},
     "servers": ["https://raw.githubusercontent.com/SerenTera/stop-dismount/master/"]
 }

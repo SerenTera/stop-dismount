@@ -1,12 +1,12 @@
 const config = require('./config.json')
 
-module.exports = function stopDismount(dispatch){
+module.exports = function stopDismount(mod){
 
-	let timeout = config.timeout //Change the time duration in config file.
+	let timeout = config.timeout,
+		time = 0
 
-	let time = 0
-
-	dispatch.hook('C_START_SKILL', 'raw', () => { if(Date.now()-time < timeout) return false })
-	dispatch.hook('S_MOUNT_VEHICLE', 'raw', () => { time=Date.now() })
-
+	mod.hook('C_START_SKILL', "raw", () => { 
+		if(Date.now()-time < timeout) return false
+	})
+	mod.hook('S_MOUNT_VEHICLE', "raw", () => { time=Date.now() })
 }

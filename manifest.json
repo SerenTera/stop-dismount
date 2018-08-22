@@ -1,10 +1,14 @@
 {
-  "files": {
-      "config.json": {
+	"files": {
+        "config.json": {
           "overwrite": false,
           "hash": "14c37fac9efc29296c7af4c7f8593ea45483ed3b7bc5f1c4653c70acf41b763e"
-      },
-      "index.js": "3f200827ffe42279d1c82697a782bf54b2684d6cd0d98f2fc88a29db1116aab9",
-      "module.json": "7181af0566689b4ef7f13aeac2f31a95cadde3ef0f607e7a96841b0bfb583f52"
-  }
+        },
+		"index.js": "ba5e96f64a586966359b46ff4cbce16bcf7dffbf1c286a145caf1cd1afa41794",
+		"module.json": "efea22f777282062c5c8ba5bc5989f37807b1aaa84ecfabc8cc4fcd4ebc51b94"
+	},
+	"defs": {
+		"C_START_SKILL": "raw",
+		"S_MOUNT_VEHICLE": "raw"
+	}
 }
