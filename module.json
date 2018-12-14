@@ -1,5 +1,9 @@
 {
 	"disableAutoUpdate": false,
+	"name": "stop-dismount",
+    "author": "Seren",
+    "description":"Fixes the dismounting bug during UHTF.",
+    "version":"1.0.0",
 	"options": {
 		"niceName":"Stop Dismount"
 	},
